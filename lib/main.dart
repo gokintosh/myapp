@@ -18,6 +18,7 @@ class Home extends StatelessWidget {
         child: Icon(
           Icons.airport_shuttle,
           color: Colors.deepPurpleAccent,
+          size: 60.0,
         )
         ),
 
