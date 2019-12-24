@@ -18,6 +18,7 @@ class Home extends StatelessWidget {
         child: RaisedButton(
           onPressed: (){},
           child: Text('Press'),
+          color: Colors.deepOrange,
         )
         ),
 
