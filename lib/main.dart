@@ -15,7 +15,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent,
       ),
       body: Center(
-        child: Image.network('https://cdn.pixabay.com/photo/2019/12/18/19/23/christmas-4704707_1280.jpg'),
+        child: Icon(
+          Icons.airport_shuttle,
+        )
         ),
 
       floatingActionButton: FloatingActionButton(
