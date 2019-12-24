@@ -14,17 +14,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.deepPurpleAccent,
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: (){
-            print('this branch is containers and padding');
-          },
-          icon: Icon(Icons.alternate_email),
-          color: Colors.blue,
-          
-        )
-
-        ),
+      body:Container(
+        color: Colors.grey[400],
+      ),
 
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
