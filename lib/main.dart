@@ -15,10 +15,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent,
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.deepPurpleAccent,
-          size: 60.0,
+        child: RaisedButton(
+          onPressed: (){},
+          child: Text('Press'),
         )
         ),
 
