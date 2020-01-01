@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent,
       ),
       body:Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Text('Hello World'),
           FlatButton(
@@ -25,7 +26,6 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.green,
             padding: EdgeInsets.all(20.0),
-            margin: EdgeInsets.all(10.0),
             child: Text('hello'),
           ),
         ],
